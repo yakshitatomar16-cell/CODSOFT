@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class StudentGradeCalculator {
     public static void main(String[]args){
 
-        // creates a Scanner object named sc
+        // creates a Scanner class named sc
         Scanner sc = new Scanner(System.in);
 
         //Take Student name input
@@ -39,9 +39,9 @@ public class StudentGradeCalculator {
             grade = "A+";
         } else if (percentage >= 80) {
             grade = "A";
-        } else if (percentage >= 70) {
-            grade = "B+";
         } else if (percentage >= 75) {
+            grade = "B+";
+        } else if (percentage >= 70) {
             grade = "B";
         } else if (percentage >= 60) {
             grade = "C";
