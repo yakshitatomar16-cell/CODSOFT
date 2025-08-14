@@ -1,9 +1,9 @@
-package Task1.Numbergame;
+package Task1.NumberGame;
+
 import java.util.Random;
 import java.util.Scanner;
 
-public class GuessingGame {
-
+public class GuessingGame{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
@@ -58,9 +58,15 @@ public class GuessingGame {
             System.out.println("Do you want to play again? (yes/no): ");
             String response = sc.next().trim().toLowerCase();
             playAgain = response.startsWith("y");
-         }
+        }
 
         System.out.println("Thanks for playing! Final score: " + score);
         sc.close();
     }
+
+
+
+
 }
+
+
