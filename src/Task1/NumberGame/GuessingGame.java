@@ -48,3 +48,25 @@ public class GuessingGame{
                     System.out.println("Attempts left: " + attempts);
                 }
             }
+
+            if(!guessed) {
+                System.out.println("You can ran out of attempts. The number was:  " + target);
+            }
+
+            System.out.println("Your current score: " + score);
+
+            System.out.println("Do you want to play again? (yes/no): ");
+            String response = sc.next().trim().toLowerCase();
+            playAgain = response.startsWith("y");
+        }
+
+        System.out.println("Thanks for playing! Final score: " + score);
+        sc.close();
+    }
+
+
+
+
+}
+
+
