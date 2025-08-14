@@ -4,7 +4,7 @@ public class BankAccount {
     private double balance;
 
     public BankAccount(double initialBalance) {
-        this.balance = initialBalance;
+        balance = initialBalance;
     }
 
     public void deposit(double amount) {
