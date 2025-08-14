@@ -10,3 +10,5 @@ Task 2 -> #Student Grade Calculator
 - **Consitional Statements:** To determine the grade according to percentage
 - **User input handling:** Using 'Scanner' for reading marks from the user
 - **Basic arithematic operations:** for sum and percentage calculations
+
+
