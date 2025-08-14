@@ -63,10 +63,6 @@ public class GuessingGame{
         System.out.println("Thanks for playing! Final score: " + score);
         sc.close();
     }
-
-
-
-
 }
 
 
